@@ -1,0 +1,106 @@
+.Cardmain {
+    position: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+    .card_image img {
+        height: auto;
+        max-width: 100%;
+        vertical-align: middle;
+    }
+.btn {
+        color: $maincolor;
+        padding: 1rem;
+        font-size: 20px;
+        text-transform: uppercase;
+        border-radius: 4px;
+        font-weight: 600;
+        display: block;
+        width: 100%;
+        cursor: pointer;
+        border: 2px solid $maincolor;
+        background: transparent;
+        position: relative;
+    }
+    .btn:hover {
+        color: $mainBlack;
+        background-color: $hoverColor;
+    }
+    .card_btn {
+        padding: 1rem;
+    }
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: auto;
+        padding: 0px;
+        justify-content: center;
+        
+    }
+    .cards_item {
+        display: flex;
+        padding: 1rem;
+    }
+    @media (min-width: 40rem) {
+        .cards_item {
+            width: 50%;
+            
+        }
+    }
+    @media (min-width: 56rem) {
+        .cards_item {
+            width: 30.3333%;
+            
+        }
+    }
+    .card {
+        background-color: $mainBlack;
+        border-radius: 8px;
+        // box-shadow: 0 0 8px 1px $maincolor;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        margin: 18px;
+        text-shadow: 0 0 2px $mainBlack;
+        margin-bottom: 50px;
+        width: 250px;
+        justify-content: center;
+        /* -webkit-box-shadow: 0px 6px 16px 10px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 6px 16px 10px rgba(0,0,0,0.75);
+        box-shadow: 0px 6px 16px 10px rgba(0,0,0,0.75); */
+    }
+    .card_content {
+        padding: 1rem;
+        background-color: $mainBlack;
+        
+        
+        
+    }
+    .card_title {
+        color: $TextColor;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        margin: 0px;
+        text-decoration: none;
+    }
+    .card_text {
+        color: $TextColor;
+        font-size: 15px;
+        line-height: 1.5;
+        margin-bottom: 1.25rem;
+        font-weight: 400;
+    }
+
+    .cardLink{
+
+            text-decoration: none;
+
+   }
+   }
+    
+   
+   

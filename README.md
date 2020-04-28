@@ -1,3 +1,27 @@
+//Projekt
+
+
+React har valts av kursledaren.
+
+Fördelar:
+    - Virtual DOM gör så att användarna får en bättre upplevelse och utvecklarna arbetar snabbare
+    - Ett opensource Facebook bibliotek
+    - "Reusable" Komponenter
+    - Kännt för att vara SEO vänligt
+
+Nackdelar:
+    - Ont om dokumentation
+    - Täcker bara UI layers
+    - High Pace utveckling
+    
+
+Andra alternativ är Angular.JS och VUE.JS
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
