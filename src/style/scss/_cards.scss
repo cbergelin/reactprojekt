@@ -1,9 +1,13 @@
 .Cardmain {
-    position: flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 100px;
     text-align: center;
+    flex-direction: row;
+    justify-content: center;
     .card_image img {
         height: auto;
         max-width: 100%;
@@ -34,24 +38,27 @@
         display: flex;
         flex-wrap: wrap;
         list-style: none;
-        margin: auto;
+        width: 25%;
+        margin: 0px;
         padding: 0px;
         justify-content: center;
         
     }
     .cards_item {
         display: flex;
+        
+        justify-content: center;
         padding: 1rem;
     }
     @media (min-width: 40rem) {
         .cards_item {
-            width: 50%;
+           
             
         }
     }
     @media (min-width: 56rem) {
         .cards_item {
-            width: 30.3333%;
+            
             
         }
     }
@@ -100,7 +107,9 @@
             text-decoration: none;
 
    }
-   }
+    
+  
+}
     
    
    
