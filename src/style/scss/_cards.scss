@@ -50,10 +50,17 @@
         justify-content: center;
         padding: 1rem;
     }
-    @media (min-width: 40rem) {
-        .cards_item {
-           
-            
+    @media (max-width: 1050px) {
+        .Cardmain {
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-top: 100px;
+            text-align: center;
+            flex-direction: column;
+            justify-content: center;
         }
     }
     @media (min-width: 56rem) {

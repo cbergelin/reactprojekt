@@ -5,6 +5,8 @@ import Navbar from "./Navbar"
 import Formular from "../pages/Formular"
 import Adminform from "./Adminform";
 import App from "./App";
+import AdminLogin from "./Auth/AdminLogin"
+import AdminSida from "./AdminSida"
 
 
 const Approute = ()=>{
@@ -19,7 +21,9 @@ const Approute = ()=>{
                  
                  <Route path="/bookings" component= {Booking} exact></Route>
                  <Route path="/form" exact component= {Formular}></Route>
-                 <Route path="/admin" exact component= {Adminform}></Route>
+                 <Route path="/admin" exact component= {Adminform}></Route>                
+                 <Route path="/adminpage" exact component= {AdminSida}></Route>
+                 <Route path="/adminlogin" exact component= {AdminLogin}></Route> 
             </BrowserRouter>
             
               

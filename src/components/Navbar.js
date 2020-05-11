@@ -18,6 +18,7 @@ const Navbar = ()=>{
                   <li><Link to="/Card.js">Features</Link></li>
                   <li><Link to="/Booking.js">Bookings</Link></li>
                   <li><Link to="/Form">Form</Link></li>
+                  <li><Link to="/adminpage">Admin</Link></li>
               </ul>
           </div>
         </nav>
