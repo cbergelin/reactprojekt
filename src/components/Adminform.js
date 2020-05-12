@@ -49,10 +49,10 @@ class Adminform extends Component{
             <div>
                 <form onSubmit={this.onSubmitToDbase.bind(this)}>
 
-                    <input type="text" name="title"/><br/>
-                    <input type="text" name="description"/><br/>
-                    <input type="file" onChange={this.eventChange.bind(this)} name="file"/><br/>
-                    <input type="number" name="price"/><br/>
+                    <input type="text" name="title" placeholder="Produkttitel"/><br/>
+                    <textarea type="text" name="description" rows="10" cols="25" placeholder="Beskrivning"></textarea><br/>
+                    <input type="number" name="price" placeholder="Pris"/><br/>
+                    <input type="file" onChange={this.eventChange.bind(this)} name="file"/><br/>                    
                     <button>Spara</button>
                     
                 </form>

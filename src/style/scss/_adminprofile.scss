@@ -1,0 +1,57 @@
+.adminProfile-container{
+   
+    margin-top: 65px;
+    height: 100vh;
+
+    .adminprofile-userContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .logedIn-as{
+        position: relative;
+        justify-content: flex-end;
+        top: 0;
+        right: 0;
+        height: 2rem;
+    }
+
+    .adminProfile-LogOut{
+        position: relative;
+        right: 1;
+        top: 10%;
+        height: 2rem;
+
+    }
+
+    .adminProfile-dashboard{
+        display: flex;
+        position: absolute;
+        height: 25vh;
+        width: 25vw;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        justify-content: space-evenly; 
+        align-items: center;
+        flex-direction: column;   
+        
+        .adminProfile-dashBtn{
+            height: auto;
+            width: auto;
+        }
+
+        form{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 5px;
+        }
+    }
+
+}
+
+
+
+
