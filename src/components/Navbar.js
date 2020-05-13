@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { Component } from "react";
 import {Link} from 'react-router-dom'
 import "../style/scss/main.scss";
 
-const Navbar = ()=>{
+class Navbar extends Component {
 
+
+
+  render(){
     return(
 
 
@@ -14,7 +17,7 @@ const Navbar = ()=>{
               <input id={"responsive-menu"} type={"checkbox"}/>
               <label htmlFor={"responsive-menu"}>Menu <span id={"menu-icon"}></span></label>
             
-              <ul> <li><Link to="/">Start</Link></li>
+              <ul><li><Link to="/">Start</Link></li>
                   <li><Link to="/Card.js">Features</Link></li>
                   <li><Link to="/Booking.js">Bookings</Link></li>
                   <li><Link to="/Form">Form</Link></li>
@@ -26,7 +29,7 @@ const Navbar = ()=>{
            
       )
 
-
+  }
 }
 
 export default Navbar
