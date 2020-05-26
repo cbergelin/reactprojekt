@@ -4,7 +4,7 @@ import "../style/scss/main.scss";
 const Footer = ()=>{
 
     return (
-        <footer>
+        <footer className="footer">
             Copyright 2020
         </footer>
     )

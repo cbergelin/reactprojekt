@@ -25,6 +25,7 @@ class App extends Component{
                     {this.state.produkts.map((produkt) =>
                         <Card 
                         image={"http://localhost:1337"+produkt.image[0].formats.thumbnail.url}
+                        prodId={produkt.id}
                         title={produkt.title}
                         price={produkt.price}
                         description={produkt.description}

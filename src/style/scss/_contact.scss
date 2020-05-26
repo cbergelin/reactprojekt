@@ -1,0 +1,16 @@
+.contact-main{
+    display: flex;
+    
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        
+        input{
+            margin-bottom: 5px;
+        }
+
+        textarea{
+            margin-bottom: 5px;
+        }
+    }
+}
